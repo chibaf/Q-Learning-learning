@@ -19,7 +19,7 @@ class DQN(nn.Module):
         return x<br>
 </ul>
 
-![image](https://github.com/user-attachments/assets/a10a7ffb-bc8c-4387-b90f-c99bd086fa3f)
+<img width="600" alt="neuralnet-layers-num" src="https://github.com/user-attachments/assets/2bc46c46-d1ae-4e13-81ca-9b2df60c9cf2" />
 
 
 ## references
