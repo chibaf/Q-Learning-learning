@@ -1,1 +1,20 @@
 # Q-Learning-learning
+
+<ul>class DQN(nn.Module):
+    def __init__(self):<br>
+        super(DQN, self).__init__()<br>
+        self.l1 = nn.Linear(1, 3)<br>
+        self.l2 = nn.Linear(3, 3)<br>
+        self.l3 = nn.Linear(3, 2)<br>
+<br>
+    def forward(self, x):<br>
+        x = F.relu(self.l1(x))<br>
+        x = F.relu(self.l2(x))<br>
+        x = self.l3(x)<br>
+        return x<br>
+</ul>
+
+
+## references
+深層強化学習(Deep Q Network, DQN)の簡単な例 - 化学系エンジニアがAIを学ぶ
+https://schemer1341.hatenablog.com/entry/2019/05/04/002300
