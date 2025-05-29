@@ -25,3 +25,6 @@ class DQN(nn.Module):
 ## references
 深層強化学習(Deep Q Network, DQN)の簡単な例 - 化学系エンジニアがAIを学ぶ
 https://schemer1341.hatenablog.com/entry/2019/05/04/002300
+
+Linear — PyTorch 2.7 documentation
+https://docs.pytorch.org/docs/stable/generated/torch.nn.Linear.html
