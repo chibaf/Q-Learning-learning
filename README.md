@@ -6,7 +6,7 @@ import torch.nn as nn<br>
 import torch.nn.functional as F<br>
 #<br>
 class DQN(nn.Module):<br>
-    def __init__(self):<br>
+　def __init__(self):<br>
         super(DQN, self).__init__()<br>
         self.l1 = nn.Linear(1, 3)<br>
         self.l2 = nn.Linear(3, 3)<br>
