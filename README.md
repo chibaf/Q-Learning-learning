@@ -14,6 +14,8 @@
         return x<br>
 </ul>
 
+![image](https://github.com/user-attachments/assets/a10a7ffb-bc8c-4387-b90f-c99bd086fa3f)
+
 
 ## references
 深層強化学習(Deep Q Network, DQN)の簡単な例 - 化学系エンジニアがAIを学ぶ
