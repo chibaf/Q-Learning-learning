@@ -7,16 +7,16 @@ import torch.nn.functional as F<br>
 #<br>
 class DQN(nn.Module):<br>
 　def __init__(self):<br>
-        super(DQN, self).__init__()<br>
-        self.l1 = nn.Linear(1, 3)<br>
-        self.l2 = nn.Linear(3, 3)<br>
-        self.l3 = nn.Linear(3, 2)<br>
+　　super(DQN, self).__init__()<br>
+　　self.l1 = nn.Linear(1, 3)<br>
+　　self.l2 = nn.Linear(3, 3)<br>
+　　self.l3 = nn.Linear(3, 2)<br>
     # generating neural netwok layers<br>
-    def forward(self, x):<br>
-        x = F.relu(self.l1(x)) # the first layer<br>
-        x = F.relu(self.l2(x)) # the second layer<br>
-        x = self.l3(x) # the third layer<br> 
-        return x<br>
+　def forward(self, x):<br>
+　　x = F.relu(self.l1(x)) # the first layer<br>
+　　x = F.relu(self.l2(x)) # the second layer<br>
+　　x = self.l3(x) # the third layer<br> 
+　　return x<br>
 </ul>
 
 <img width="600" alt="neuralnet-layers-num" src="https://github.com/user-attachments/assets/2bc46c46-d1ae-4e13-81ca-9b2df60c9cf2" />
