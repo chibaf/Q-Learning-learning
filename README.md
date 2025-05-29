@@ -11,7 +11,7 @@ class DQN(nn.Module):
         self.l1 = nn.Linear(1, 3)<br>
         self.l2 = nn.Linear(3, 3)<br>
         self.l3 = nn.Linear(3, 2)<br>
-<br>
+    # generating neural netwok layers<br>
     def forward(self, x):<br>
         x = F.relu(self.l1(x)) # the first layer<br>
         x = F.relu(self.l2(x)) # the second layer<br>
