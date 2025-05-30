@@ -1,7 +1,7 @@
 # Q-Learning-learning
 ## generating neural net layers
 
-https://cdn-ak.f.st-hatena.com/images/fotolife/s/schemer1341/20190502/20190502090108.png![image](https://github.com/user-attachments/assets/2d734da1-1577-45f0-9375-2728e8b7d851)
+https://cdn-ak.f.st-hatena.com/images/fotolife/s/schemer1341/20190502/20190502090108.png![image](https://github.com/user-attachments/assets/a4a14d2b-bc73-4b15-8de4-0d4029cdbbf4)
 
 <ul>
 import torch<br>
